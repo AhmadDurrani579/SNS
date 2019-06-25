@@ -1,0 +1,55 @@
+PODS:
+  - ActionSheetPicker-3.0 (2.3.0)
+  - Alamofire (4.8.2)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - DatePickerDialog (2.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - ObjectMapper (3.4.2)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0
+  - Alamofire
+  - AlamofireObjectMapper (~> 5.2)
+  - DatePickerDialog
+  - IQKeyboardManagerSwift (= 6.0.4)
+  - SDWebImage (~> 3.8)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ActionSheetPicker-3.0
+    - Alamofire
+    - AlamofireObjectMapper
+    - DatePickerDialog
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  SVProgressHUD:
+    :commit: e2a6aaa12321962cbe9fbecc370475f369c6566c
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: eef157d75e151f255c5333d26656c7fbfe905a51
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  DatePickerDialog: 5e1c24d9fe6506cd45dbc573eed7b0a251b1c09d
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: 7484b64dd1afbf1e1e5a90b84f364da73b558de7
+
+COCOAPODS: 1.5.2

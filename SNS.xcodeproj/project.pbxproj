@@ -7,13 +7,78 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		445B449E9B93C2859365FB77 /* Pods_SNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 740EDAE15931B80D80DA9A72 /* Pods_SNS.framework */; };
+		79F7CE859C6653278B6B996E /* Pods_SNSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDFEAE3CC9E7DA020E1A049E /* Pods_SNSTests.framework */; };
+		C88A4A0999E4950D7409B77B /* Pods_SNSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16D4B8D496E7C7C176BAF9B6 /* Pods_SNSUITests.framework */; };
+		E254BF6322AEE79600265A89 /* updateLogo.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E254BF6222AEE79500265A89 /* updateLogo.jpeg */; };
+		E28A210922872E0F005CCF2E /* Another.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E28A210822872E0F005CCF2E /* Another.jpeg */; };
 		E2A80BEE226F9DBC004E1CE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80BED226F9DBC004E1CE5 /* AppDelegate.swift */; };
-		E2A80BF0226F9DBC004E1CE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80BEF226F9DBC004E1CE5 /* ViewController.swift */; };
 		E2A80BF3226F9DBC004E1CE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A80BF1226F9DBC004E1CE5 /* Main.storyboard */; };
 		E2A80BF5226F9DBD004E1CE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A80BF4226F9DBD004E1CE5 /* Assets.xcassets */; };
 		E2A80BF8226F9DBD004E1CE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A80BF6226F9DBD004E1CE5 /* LaunchScreen.storyboard */; };
 		E2A80C03226F9DBD004E1CE5 /* SNSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C02226F9DBD004E1CE5 /* SNSTests.swift */; };
 		E2A80C0E226F9DBD004E1CE5 /* SNSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C0D226F9DBD004E1CE5 /* SNSUITests.swift */; };
+		E2A80C7B226F9F7A004E1CE5 /* CardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C1E226F9F7A004E1CE5 /* CardCell.swift */; };
+		E2A80C7E226F9F7A004E1CE5 /* WebServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C23226F9F7A004E1CE5 /* WebServiceManager.swift */; };
+		E2A80C7F226F9F7A004E1CE5 /* demoImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C25226F9F7A004E1CE5 /* demoImage.jpg */; };
+		E2A80C80226F9F7A004E1CE5 /* PhotoPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C26226F9F7A004E1CE5 /* PhotoPicker.swift */; };
+		E2A80C82226F9F7A004E1CE5 /* UIViewController+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C2B226F9F7A004E1CE5 /* UIViewController+Helper.m */; };
+		E2A80C83226F9F7A004E1CE5 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C2C226F9F7A004E1CE5 /* CardView.swift */; };
+		E2A80C84226F9F7A004E1CE5 /* ConstantDevices.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C2D226F9F7A004E1CE5 /* ConstantDevices.swift */; };
+		E2A80C85226F9F7A004E1CE5 /* choose_gallery.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C2E226F9F7A004E1CE5 /* choose_gallery.jpg */; };
+		E2A80C86226F9F7A004E1CE5 /* UIAlertControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C30226F9F7A004E1CE5 /* UIAlertControllerExtension.swift */; };
+		E2A80C87226F9F7A004E1CE5 /* UIViewcontrollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C31226F9F7A004E1CE5 /* UIViewcontrollerExtension.swift */; };
+		E2A80C88226F9F7A004E1CE5 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C33226F9F7A004E1CE5 /* UIColorExtension.swift */; };
+		E2A80C89226F9F7A004E1CE5 /* WAView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C34226F9F7A004E1CE5 /* WAView.swift */; };
+		E2A80C8C226F9F7A004E1CE5 /* UtilityHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C37226F9F7A004E1CE5 /* UtilityHelper.swift */; };
+		E2A80C8D226F9F7A004E1CE5 /* TQConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C39226F9F7A004E1CE5 /* TQConstants.swift */; };
+		E2A80C8E226F9F7A004E1CE5 /* ApplicationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C3A226F9F7A004E1CE5 /* ApplicationHelper.swift */; };
+		E2A80C98226F9F7A004E1CE5 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C46226F9F7A004E1CE5 /* DataModel.swift */; };
+		E2A80C9D226F9F7A004E1CE5 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4C226F9F7A004E1CE5 /* Roboto-Light.ttf */; };
+		E2A80CB0226F9F7A004E1CE5 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5F226F9F7A004E1CE5 /* Roboto-Thin.ttf */; };
+		E2A80CB3226F9F7A004E1CE5 /* WAShareHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C63226F9F7A004E1CE5 /* WAShareHelper.swift */; };
+		E2A80CB4226F9F7A004E1CE5 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C64226F9F7A004E1CE5 /* GradientView.swift */; };
+		E2A80CB6226F9F7A004E1CE5 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C66226F9F7A004E1CE5 /* RoundedButton.swift */; };
+		E2A80CC1226F9F7A004E1CE5 /* KGRadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C73226F9F7A004E1CE5 /* KGRadioButton.swift */; };
+		E2A80CC3226F9F7A004E1CE5 /* UITextField+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = E2A80C78226F9F7A004E1CE5 /* UITextField+Additions.m */; };
+		E2A80CC6226FA1C5004E1CE5 /* logo_sns.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CC5226FA1C5004E1CE5 /* logo_sns.png */; };
+		E2A80CC9226FA29B004E1CE5 /* SNSMainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CC8226FA29B004E1CE5 /* SNSMainTabBarVC.swift */; };
+		E2A80CD3226FA577004E1CE5 /* ssc_banner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CD2226FA577004E1CE5 /* ssc_banner.jpg */; };
+		E2A80CD9226FA7E3004E1CE5 /* SNSHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CD8226FA7E3004E1CE5 /* SNSHomeVC.swift */; };
+		E2A80CDC226FA90B004E1CE5 /* logo_ihr.png in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CDA226FA90B004E1CE5 /* logo_ihr.png */; };
+		E2A80CDD226FA90B004E1CE5 /* ifem.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CDB226FA90B004E1CE5 /* ifem.jpg */; };
+		E2A80CDF226FA911004E1CE5 /* eyecon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CDE226FA911004E1CE5 /* eyecon.jpeg */; };
+		E2A80CE4226FAB91004E1CE5 /* HomeScreenHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CE2226FAB91004E1CE5 /* HomeScreenHeader.swift */; };
+		E2A80CE5226FAB91004E1CE5 /* HomeScreenHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CE3226FAB91004E1CE5 /* HomeScreenHeader.xib */; };
+		E2A80CE8226FABB5004E1CE5 /* HomeScreenFooterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CE6226FABB5004E1CE5 /* HomeScreenFooterCell.swift */; };
+		E2A80CE9226FABB5004E1CE5 /* HomeScreenFooterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A80CE7226FABB5004E1CE5 /* HomeScreenFooterCell.xib */; };
+		E2A80CEB226FB329004E1CE5 /* SNSLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CEA226FB329004E1CE5 /* SNSLoginVC.swift */; };
+		E2A80CED226FB3A0004E1CE5 /* RegistrationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CEC226FB3A0004E1CE5 /* RegistrationPresenter.swift */; };
+		E2A80CEF226FB656004E1CE5 /* SNSContactUSVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A80CEE226FB656004E1CE5 /* SNSContactUSVC.swift */; };
+		E2A80CF0226FBA89004E1CE5 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4A226F9F7A004E1CE5 /* Roboto-Medium.ttf */; };
+		E2A80CF1226FBA89004E1CE5 /* Metropolis-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4B226F9F7A004E1CE5 /* Metropolis-Bold.otf */; };
+		E2A80CF2226FBA89004E1CE5 /* Metropolis-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4D226F9F7A004E1CE5 /* Metropolis-Thin.otf */; };
+		E2A80CF3226FBA89004E1CE5 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4E226F9F7A004E1CE5 /* Roboto-Regular.ttf */; };
+		E2A80CF4226FBA89004E1CE5 /* Metropolis-RegularItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C4F226F9F7A004E1CE5 /* Metropolis-RegularItalic.otf */; };
+		E2A80CF5226FBA89004E1CE5 /* Metropolis-ExtraBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C50226F9F7A004E1CE5 /* Metropolis-ExtraBold.otf */; };
+		E2A80CF6226FBA89004E1CE5 /* Metropolis-SemiBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C51226F9F7A004E1CE5 /* Metropolis-SemiBoldItalic.otf */; };
+		E2A80CF7226FBA89004E1CE5 /* Metropolis-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C52226F9F7A004E1CE5 /* Metropolis-Light.otf */; };
+		E2A80CF8226FBA89004E1CE5 /* Metropolis-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C53226F9F7A004E1CE5 /* Metropolis-Regular.otf */; };
+		E2A80CF9226FBA89004E1CE5 /* Metropolis-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C54226F9F7A004E1CE5 /* Metropolis-Black.otf */; };
+		E2A80CFA226FBA89004E1CE5 /* Metropolis-ExtraLightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C55226F9F7A004E1CE5 /* Metropolis-ExtraLightItalic.otf */; };
+		E2A80CFB226FBA89004E1CE5 /* Metropolis-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C56226F9F7A004E1CE5 /* Metropolis-Medium.otf */; };
+		E2A80CFC226FBA89004E1CE5 /* Metropolis-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C57226F9F7A004E1CE5 /* Metropolis-BlackItalic.otf */; };
+		E2A80CFD226FBA89004E1CE5 /* Metropolis-ThinItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C58226F9F7A004E1CE5 /* Metropolis-ThinItalic.otf */; };
+		E2A80CFE226FBA89004E1CE5 /* Metropolis-ExtraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C59226F9F7A004E1CE5 /* Metropolis-ExtraLight.otf */; };
+		E2A80CFF226FBA89004E1CE5 /* Metropolis-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5A226F9F7A004E1CE5 /* Metropolis-MediumItalic.otf */; };
+		E2A80D00226FBA89004E1CE5 /* Metropolis-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5B226F9F7A004E1CE5 /* Metropolis-LightItalic.otf */; };
+		E2A80D01226FBA89004E1CE5 /* Metropolis-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5C226F9F7A004E1CE5 /* Metropolis-SemiBold.otf */; };
+		E2A80D02226FBA89004E1CE5 /* Metropolis-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5D226F9F7A004E1CE5 /* Metropolis-BoldItalic.otf */; };
+		E2A80D03226FBA89004E1CE5 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C5E226F9F7A004E1CE5 /* Roboto-Bold.ttf */; };
+		E2A80D04226FBA89004E1CE5 /* Metropolis-ExtraBoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = E2A80C60226F9F7A004E1CE5 /* Metropolis-ExtraBoldItalic.otf */; };
+		E2C073AF22834A9800E0A18F /* IMC.png in Resources */ = {isa = PBXBuildFile; fileRef = E2C073AE22834A9800E0A18F /* IMC.png */; };
+		E2CE3E5922973196006B00AC /* WebViewLoadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CE3E5822973196006B00AC /* WebViewLoadVC.swift */; };
+		E2F7D3892270B71F00EAFC39 /* ManullyEntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F7D3882270B71F00EAFC39 /* ManullyEntryVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +99,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		04583C38E2F18FA75894E6BC /* Pods-SNSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSUITests/Pods-SNSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		16D4B8D496E7C7C176BAF9B6 /* Pods_SNSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B1C379FF75CCB427943B3D /* Pods-SNS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNS/Pods-SNS.debug.xcconfig"; sourceTree = "<group>"; };
+		4C51D7A0D5F36EB9E4982FA1 /* Pods-SNSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSTests/Pods-SNSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E91ABC53603B638AA8B4E7B /* Pods-SNSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNSUITests/Pods-SNSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		740EDAE15931B80D80DA9A72 /* Pods_SNS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DA499A8B95DBF2122AB7FD /* Pods-SNS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNS.release.xcconfig"; path = "Pods/Target Support Files/Pods-SNS/Pods-SNS.release.xcconfig"; sourceTree = "<group>"; };
+		BDFEAE3CC9E7DA020E1A049E /* Pods_SNSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SNSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC88379B4EAFF0416ED9515C /* Pods-SNSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SNSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SNSTests/Pods-SNSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E254BF6222AEE79500265A89 /* updateLogo.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = updateLogo.jpeg; sourceTree = "<group>"; };
+		E28A210822872E0F005CCF2E /* Another.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Another.jpeg; sourceTree = "<group>"; };
 		E2A80BEA226F9DBC004E1CE5 /* SNS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SNS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A80BED226F9DBC004E1CE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2A80BEF226F9DBC004E1CE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E2A80BF2226F9DBC004E1CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2A80BF4226F9DBD004E1CE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2A80BF7226F9DBD004E1CE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +122,70 @@
 		E2A80C09226F9DBD004E1CE5 /* SNSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SNSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2A80C0D226F9DBD004E1CE5 /* SNSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSUITests.swift; sourceTree = "<group>"; };
 		E2A80C0F226F9DBD004E1CE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A80C1E226F9F7A004E1CE5 /* CardCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCell.swift; sourceTree = "<group>"; };
+		E2A80C23226F9F7A004E1CE5 /* WebServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceManager.swift; sourceTree = "<group>"; };
+		E2A80C25226F9F7A004E1CE5 /* demoImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demoImage.jpg; sourceTree = "<group>"; };
+		E2A80C26226F9F7A004E1CE5 /* PhotoPicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoPicker.swift; sourceTree = "<group>"; };
+		E2A80C27226F9F7A004E1CE5 /* SNS-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SNS-Bridging-Header.h"; sourceTree = "<group>"; };
+		E2A80C2A226F9F7A004E1CE5 /* UIViewController+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Helper.h"; sourceTree = "<group>"; };
+		E2A80C2B226F9F7A004E1CE5 /* UIViewController+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Helper.m"; sourceTree = "<group>"; };
+		E2A80C2C226F9F7A004E1CE5 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		E2A80C2D226F9F7A004E1CE5 /* ConstantDevices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantDevices.swift; sourceTree = "<group>"; };
+		E2A80C2E226F9F7A004E1CE5 /* choose_gallery.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = choose_gallery.jpg; sourceTree = "<group>"; };
+		E2A80C30226F9F7A004E1CE5 /* UIAlertControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIAlertControllerExtension.swift; sourceTree = "<group>"; };
+		E2A80C31226F9F7A004E1CE5 /* UIViewcontrollerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewcontrollerExtension.swift; sourceTree = "<group>"; };
+		E2A80C33226F9F7A004E1CE5 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		E2A80C34226F9F7A004E1CE5 /* WAView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAView.swift; sourceTree = "<group>"; };
+		E2A80C37226F9F7A004E1CE5 /* UtilityHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityHelper.swift; sourceTree = "<group>"; };
+		E2A80C39226F9F7A004E1CE5 /* TQConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TQConstants.swift; sourceTree = "<group>"; };
+		E2A80C3A226F9F7A004E1CE5 /* ApplicationHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationHelper.swift; sourceTree = "<group>"; };
+		E2A80C46226F9F7A004E1CE5 /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		E2A80C4A226F9F7A004E1CE5 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		E2A80C4B226F9F7A004E1CE5 /* Metropolis-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Bold.otf"; sourceTree = "<group>"; };
+		E2A80C4C226F9F7A004E1CE5 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
+		E2A80C4D226F9F7A004E1CE5 /* Metropolis-Thin.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Thin.otf"; sourceTree = "<group>"; };
+		E2A80C4E226F9F7A004E1CE5 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		E2A80C4F226F9F7A004E1CE5 /* Metropolis-RegularItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-RegularItalic.otf"; sourceTree = "<group>"; };
+		E2A80C50226F9F7A004E1CE5 /* Metropolis-ExtraBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBold.otf"; sourceTree = "<group>"; };
+		E2A80C51226F9F7A004E1CE5 /* Metropolis-SemiBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBoldItalic.otf"; sourceTree = "<group>"; };
+		E2A80C52226F9F7A004E1CE5 /* Metropolis-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Light.otf"; sourceTree = "<group>"; };
+		E2A80C53226F9F7A004E1CE5 /* Metropolis-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Regular.otf"; sourceTree = "<group>"; };
+		E2A80C54226F9F7A004E1CE5 /* Metropolis-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Black.otf"; sourceTree = "<group>"; };
+		E2A80C55226F9F7A004E1CE5 /* Metropolis-ExtraLightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLightItalic.otf"; sourceTree = "<group>"; };
+		E2A80C56226F9F7A004E1CE5 /* Metropolis-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-Medium.otf"; sourceTree = "<group>"; };
+		E2A80C57226F9F7A004E1CE5 /* Metropolis-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BlackItalic.otf"; sourceTree = "<group>"; };
+		E2A80C58226F9F7A004E1CE5 /* Metropolis-ThinItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ThinItalic.otf"; sourceTree = "<group>"; };
+		E2A80C59226F9F7A004E1CE5 /* Metropolis-ExtraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraLight.otf"; sourceTree = "<group>"; };
+		E2A80C5A226F9F7A004E1CE5 /* Metropolis-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-MediumItalic.otf"; sourceTree = "<group>"; };
+		E2A80C5B226F9F7A004E1CE5 /* Metropolis-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-LightItalic.otf"; sourceTree = "<group>"; };
+		E2A80C5C226F9F7A004E1CE5 /* Metropolis-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-SemiBold.otf"; sourceTree = "<group>"; };
+		E2A80C5D226F9F7A004E1CE5 /* Metropolis-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-BoldItalic.otf"; sourceTree = "<group>"; };
+		E2A80C5E226F9F7A004E1CE5 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		E2A80C5F226F9F7A004E1CE5 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		E2A80C60226F9F7A004E1CE5 /* Metropolis-ExtraBoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Metropolis-ExtraBoldItalic.otf"; sourceTree = "<group>"; };
+		E2A80C63226F9F7A004E1CE5 /* WAShareHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WAShareHelper.swift; sourceTree = "<group>"; };
+		E2A80C64226F9F7A004E1CE5 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		E2A80C66226F9F7A004E1CE5 /* RoundedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		E2A80C73226F9F7A004E1CE5 /* KGRadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KGRadioButton.swift; sourceTree = "<group>"; };
+		E2A80C77226F9F7A004E1CE5 /* UITextField+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Additions.h"; sourceTree = "<group>"; };
+		E2A80C78226F9F7A004E1CE5 /* UITextField+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Additions.m"; sourceTree = "<group>"; };
+		E2A80CC5226FA1C5004E1CE5 /* logo_sns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_sns.png; sourceTree = "<group>"; };
+		E2A80CC8226FA29B004E1CE5 /* SNSMainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSMainTabBarVC.swift; sourceTree = "<group>"; };
+		E2A80CD2226FA577004E1CE5 /* ssc_banner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ssc_banner.jpg; sourceTree = "<group>"; };
+		E2A80CD8226FA7E3004E1CE5 /* SNSHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSHomeVC.swift; sourceTree = "<group>"; };
+		E2A80CDA226FA90B004E1CE5 /* logo_ihr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_ihr.png; sourceTree = "<group>"; };
+		E2A80CDB226FA90B004E1CE5 /* ifem.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ifem.jpg; sourceTree = "<group>"; };
+		E2A80CDE226FA911004E1CE5 /* eyecon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eyecon.jpeg; sourceTree = "<group>"; };
+		E2A80CE2226FAB91004E1CE5 /* HomeScreenHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenHeader.swift; sourceTree = "<group>"; };
+		E2A80CE3226FAB91004E1CE5 /* HomeScreenHeader.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenHeader.xib; sourceTree = "<group>"; };
+		E2A80CE6226FABB5004E1CE5 /* HomeScreenFooterCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenFooterCell.swift; sourceTree = "<group>"; };
+		E2A80CE7226FABB5004E1CE5 /* HomeScreenFooterCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeScreenFooterCell.xib; sourceTree = "<group>"; };
+		E2A80CEA226FB329004E1CE5 /* SNSLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSLoginVC.swift; sourceTree = "<group>"; };
+		E2A80CEC226FB3A0004E1CE5 /* RegistrationPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationPresenter.swift; sourceTree = "<group>"; };
+		E2A80CEE226FB656004E1CE5 /* SNSContactUSVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SNSContactUSVC.swift; sourceTree = "<group>"; };
+		E2C073AE22834A9800E0A18F /* IMC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = IMC.png; sourceTree = "<group>"; };
+		E2CE3E5822973196006B00AC /* WebViewLoadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewLoadVC.swift; sourceTree = "<group>"; };
+		E2F7D3882270B71F00EAFC39 /* ManullyEntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManullyEntryVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				445B449E9B93C2859365FB77 /* Pods_SNS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +201,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F7CE859C6653278B6B996E /* Pods_SNSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +209,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C88A4A0999E4950D7409B77B /* Pods_SNSUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		369019FDC2B74EB93108BAB3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				740EDAE15931B80D80DA9A72 /* Pods_SNS.framework */,
+				BDFEAE3CC9E7DA020E1A049E /* Pods_SNSTests.framework */,
+				16D4B8D496E7C7C176BAF9B6 /* Pods_SNSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		883FAA7F14B26D01AEE897E4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				47B1C379FF75CCB427943B3D /* Pods-SNS.debug.xcconfig */,
+				74DA499A8B95DBF2122AB7FD /* Pods-SNS.release.xcconfig */,
+				CC88379B4EAFF0416ED9515C /* Pods-SNSTests.debug.xcconfig */,
+				4C51D7A0D5F36EB9E4982FA1 /* Pods-SNSTests.release.xcconfig */,
+				04583C38E2F18FA75894E6BC /* Pods-SNSUITests.debug.xcconfig */,
+				5E91ABC53603B638AA8B4E7B /* Pods-SNSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E2A80BE1226F9DBC004E1CE5 = {
 			isa = PBXGroup;
 			children = (
 				E2A80BEC226F9DBC004E1CE5 /* SNS */,
+				E2A80C1C226F9F7A004E1CE5 /* Resource */,
 				E2A80C01226F9DBD004E1CE5 /* SNSTests */,
 				E2A80C0C226F9DBD004E1CE5 /* SNSUITests */,
 				E2A80BEB226F9DBC004E1CE5 /* Products */,
+				883FAA7F14B26D01AEE897E4 /* Pods */,
+				369019FDC2B74EB93108BAB3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +266,12 @@
 			isa = PBXGroup;
 			children = (
 				E2A80BED226F9DBC004E1CE5 /* AppDelegate.swift */,
-				E2A80BEF226F9DBC004E1CE5 /* ViewController.swift */,
+				E2A80C1B226F9E29004E1CE5 /* ViewController */,
 				E2A80BF1226F9DBC004E1CE5 /* Main.storyboard */,
 				E2A80BF4226F9DBD004E1CE5 /* Assets.xcassets */,
 				E2A80BF6226F9DBD004E1CE5 /* LaunchScreen.storyboard */,
 				E2A80BF9226F9DBD004E1CE5 /* Info.plist */,
+				E2A80CCD226FA38B004E1CE5 /* UITableViewCell */,
 			);
 			path = SNS;
 			sourceTree = "<group>";
@@ -125,6 +294,197 @@
 			path = SNSUITests;
 			sourceTree = "<group>";
 		};
+		E2A80C1B226F9E29004E1CE5 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80CCA226FA2C5004E1CE5 /* SNSHomeVC */,
+				E2A80CC7226FA27E004E1CE5 /* MainTabBarVC */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E2A80C1C226F9F7A004E1CE5 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				E254BF6222AEE79500265A89 /* updateLogo.jpeg */,
+				E28A210822872E0F005CCF2E /* Another.jpeg */,
+				E2C073AE22834A9800E0A18F /* IMC.png */,
+				E2A80CEC226FB3A0004E1CE5 /* RegistrationPresenter.swift */,
+				E2A80CDE226FA911004E1CE5 /* eyecon.jpeg */,
+				E2A80CDB226FA90B004E1CE5 /* ifem.jpg */,
+				E2A80CDA226FA90B004E1CE5 /* logo_ihr.png */,
+				E2A80CD2226FA577004E1CE5 /* ssc_banner.jpg */,
+				E2A80CC5226FA1C5004E1CE5 /* logo_sns.png */,
+				E2A80C1E226F9F7A004E1CE5 /* CardCell.swift */,
+				E2A80C22226F9F7A004E1CE5 /* WebServiceManager */,
+				E2A80C24226F9F7A004E1CE5 /* PhotoPicker */,
+				E2A80C27226F9F7A004E1CE5 /* SNS-Bridging-Header.h */,
+				E2A80C29226F9F7A004E1CE5 /* AlertController */,
+				E2A80C2C226F9F7A004E1CE5 /* CardView.swift */,
+				E2A80C2D226F9F7A004E1CE5 /* ConstantDevices.swift */,
+				E2A80C2E226F9F7A004E1CE5 /* choose_gallery.jpg */,
+				E2A80C2F226F9F7A004E1CE5 /* Extensions */,
+				E2A80C37226F9F7A004E1CE5 /* UtilityHelper.swift */,
+				E2A80C38226F9F7A004E1CE5 /* Constant */,
+				E2A80C3A226F9F7A004E1CE5 /* ApplicationHelper.swift */,
+				E2A80C44226F9F7A004E1CE5 /* Model */,
+				E2A80C49226F9F7A004E1CE5 /* Font */,
+				E2A80C62226F9F7A004E1CE5 /* WASharedHelper */,
+				E2A80C64226F9F7A004E1CE5 /* GradientView.swift */,
+				E2A80C66226F9F7A004E1CE5 /* RoundedButton.swift */,
+				E2A80C73226F9F7A004E1CE5 /* KGRadioButton.swift */,
+				E2A80C75226F9F7A004E1CE5 /* Categories */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		E2A80C22226F9F7A004E1CE5 /* WebServiceManager */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C23226F9F7A004E1CE5 /* WebServiceManager.swift */,
+			);
+			path = WebServiceManager;
+			sourceTree = "<group>";
+		};
+		E2A80C24226F9F7A004E1CE5 /* PhotoPicker */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C25226F9F7A004E1CE5 /* demoImage.jpg */,
+				E2A80C26226F9F7A004E1CE5 /* PhotoPicker.swift */,
+			);
+			path = PhotoPicker;
+			sourceTree = "<group>";
+		};
+		E2A80C29226F9F7A004E1CE5 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C2A226F9F7A004E1CE5 /* UIViewController+Helper.h */,
+				E2A80C2B226F9F7A004E1CE5 /* UIViewController+Helper.m */,
+			);
+			path = AlertController;
+			sourceTree = "<group>";
+		};
+		E2A80C2F226F9F7A004E1CE5 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C30226F9F7A004E1CE5 /* UIAlertControllerExtension.swift */,
+				E2A80C31226F9F7A004E1CE5 /* UIViewcontrollerExtension.swift */,
+				E2A80C32226F9F7A004E1CE5 /* UIColorExtenios */,
+				E2A80C34226F9F7A004E1CE5 /* WAView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E2A80C32226F9F7A004E1CE5 /* UIColorExtenios */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C33226F9F7A004E1CE5 /* UIColorExtension.swift */,
+			);
+			path = UIColorExtenios;
+			sourceTree = "<group>";
+		};
+		E2A80C38226F9F7A004E1CE5 /* Constant */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C39226F9F7A004E1CE5 /* TQConstants.swift */,
+			);
+			path = Constant;
+			sourceTree = "<group>";
+		};
+		E2A80C44226F9F7A004E1CE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C46226F9F7A004E1CE5 /* DataModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E2A80C49226F9F7A004E1CE5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C4A226F9F7A004E1CE5 /* Roboto-Medium.ttf */,
+				E2A80C4B226F9F7A004E1CE5 /* Metropolis-Bold.otf */,
+				E2A80C4C226F9F7A004E1CE5 /* Roboto-Light.ttf */,
+				E2A80C4D226F9F7A004E1CE5 /* Metropolis-Thin.otf */,
+				E2A80C4E226F9F7A004E1CE5 /* Roboto-Regular.ttf */,
+				E2A80C4F226F9F7A004E1CE5 /* Metropolis-RegularItalic.otf */,
+				E2A80C50226F9F7A004E1CE5 /* Metropolis-ExtraBold.otf */,
+				E2A80C51226F9F7A004E1CE5 /* Metropolis-SemiBoldItalic.otf */,
+				E2A80C52226F9F7A004E1CE5 /* Metropolis-Light.otf */,
+				E2A80C53226F9F7A004E1CE5 /* Metropolis-Regular.otf */,
+				E2A80C54226F9F7A004E1CE5 /* Metropolis-Black.otf */,
+				E2A80C55226F9F7A004E1CE5 /* Metropolis-ExtraLightItalic.otf */,
+				E2A80C56226F9F7A004E1CE5 /* Metropolis-Medium.otf */,
+				E2A80C57226F9F7A004E1CE5 /* Metropolis-BlackItalic.otf */,
+				E2A80C58226F9F7A004E1CE5 /* Metropolis-ThinItalic.otf */,
+				E2A80C59226F9F7A004E1CE5 /* Metropolis-ExtraLight.otf */,
+				E2A80C5A226F9F7A004E1CE5 /* Metropolis-MediumItalic.otf */,
+				E2A80C5B226F9F7A004E1CE5 /* Metropolis-LightItalic.otf */,
+				E2A80C5C226F9F7A004E1CE5 /* Metropolis-SemiBold.otf */,
+				E2A80C5D226F9F7A004E1CE5 /* Metropolis-BoldItalic.otf */,
+				E2A80C5E226F9F7A004E1CE5 /* Roboto-Bold.ttf */,
+				E2A80C5F226F9F7A004E1CE5 /* Roboto-Thin.ttf */,
+				E2A80C60226F9F7A004E1CE5 /* Metropolis-ExtraBoldItalic.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		E2A80C62226F9F7A004E1CE5 /* WASharedHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C63226F9F7A004E1CE5 /* WAShareHelper.swift */,
+			);
+			path = WASharedHelper;
+			sourceTree = "<group>";
+		};
+		E2A80C75226F9F7A004E1CE5 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C76226F9F7A004E1CE5 /* UITextField */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		E2A80C76226F9F7A004E1CE5 /* UITextField */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80C77226F9F7A004E1CE5 /* UITextField+Additions.h */,
+				E2A80C78226F9F7A004E1CE5 /* UITextField+Additions.m */,
+			);
+			path = UITextField;
+			sourceTree = "<group>";
+		};
+		E2A80CC7226FA27E004E1CE5 /* MainTabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80CC8226FA29B004E1CE5 /* SNSMainTabBarVC.swift */,
+			);
+			path = MainTabBarVC;
+			sourceTree = "<group>";
+		};
+		E2A80CCA226FA2C5004E1CE5 /* SNSHomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80CD8226FA7E3004E1CE5 /* SNSHomeVC.swift */,
+				E2A80CEA226FB329004E1CE5 /* SNSLoginVC.swift */,
+				E2A80CEE226FB656004E1CE5 /* SNSContactUSVC.swift */,
+				E2F7D3882270B71F00EAFC39 /* ManullyEntryVC.swift */,
+				E2CE3E5822973196006B00AC /* WebViewLoadVC.swift */,
+			);
+			path = SNSHomeVC;
+			sourceTree = "<group>";
+		};
+		E2A80CCD226FA38B004E1CE5 /* UITableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				E2A80CE2226FAB91004E1CE5 /* HomeScreenHeader.swift */,
+				E2A80CE3226FAB91004E1CE5 /* HomeScreenHeader.xib */,
+				E2A80CE6226FABB5004E1CE5 /* HomeScreenFooterCell.swift */,
+				E2A80CE7226FABB5004E1CE5 /* HomeScreenFooterCell.xib */,
+			);
+			path = UITableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +492,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A80C12226F9DBD004E1CE5 /* Build configuration list for PBXNativeTarget "SNS" */;
 			buildPhases = (
+				CB01EF1143FE12C4287BB61F /* [CP] Check Pods Manifest.lock */,
 				E2A80BE6226F9DBC004E1CE5 /* Sources */,
 				E2A80BE7226F9DBC004E1CE5 /* Frameworks */,
 				E2A80BE8226F9DBC004E1CE5 /* Resources */,
+				2177649291F6D716ABD57FC5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +511,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A80C15226F9DBD004E1CE5 /* Build configuration list for PBXNativeTarget "SNSTests" */;
 			buildPhases = (
+				95BC903D3D67691DAB8BC27A /* [CP] Check Pods Manifest.lock */,
 				E2A80BFA226F9DBD004E1CE5 /* Sources */,
 				E2A80BFB226F9DBD004E1CE5 /* Frameworks */,
 				E2A80BFC226F9DBD004E1CE5 /* Resources */,
@@ -167,6 +530,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2A80C18226F9DBD004E1CE5 /* Build configuration list for PBXNativeTarget "SNSUITests" */;
 			buildPhases = (
+				63939654A0FAC6A37E37E5AB /* [CP] Check Pods Manifest.lock */,
 				E2A80C05226F9DBD004E1CE5 /* Sources */,
 				E2A80C06226F9DBD004E1CE5 /* Frameworks */,
 				E2A80C07226F9DBD004E1CE5 /* Resources */,
@@ -229,9 +593,44 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2A80CF0226FBA89004E1CE5 /* Roboto-Medium.ttf in Resources */,
+				E2A80CF1226FBA89004E1CE5 /* Metropolis-Bold.otf in Resources */,
+				E2A80CF2226FBA89004E1CE5 /* Metropolis-Thin.otf in Resources */,
+				E2A80CF3226FBA89004E1CE5 /* Roboto-Regular.ttf in Resources */,
+				E2A80CF4226FBA89004E1CE5 /* Metropolis-RegularItalic.otf in Resources */,
+				E2A80CF5226FBA89004E1CE5 /* Metropolis-ExtraBold.otf in Resources */,
+				E2A80CF6226FBA89004E1CE5 /* Metropolis-SemiBoldItalic.otf in Resources */,
+				E2A80CF7226FBA89004E1CE5 /* Metropolis-Light.otf in Resources */,
+				E28A210922872E0F005CCF2E /* Another.jpeg in Resources */,
+				E2A80CF8226FBA89004E1CE5 /* Metropolis-Regular.otf in Resources */,
+				E2A80CF9226FBA89004E1CE5 /* Metropolis-Black.otf in Resources */,
+				E2A80CFA226FBA89004E1CE5 /* Metropolis-ExtraLightItalic.otf in Resources */,
+				E2A80CFB226FBA89004E1CE5 /* Metropolis-Medium.otf in Resources */,
+				E2A80CFC226FBA89004E1CE5 /* Metropolis-BlackItalic.otf in Resources */,
+				E2A80CFD226FBA89004E1CE5 /* Metropolis-ThinItalic.otf in Resources */,
+				E2A80CFE226FBA89004E1CE5 /* Metropolis-ExtraLight.otf in Resources */,
+				E2C073AF22834A9800E0A18F /* IMC.png in Resources */,
+				E2A80CFF226FBA89004E1CE5 /* Metropolis-MediumItalic.otf in Resources */,
+				E2A80D00226FBA89004E1CE5 /* Metropolis-LightItalic.otf in Resources */,
+				E2A80D01226FBA89004E1CE5 /* Metropolis-SemiBold.otf in Resources */,
+				E2A80D02226FBA89004E1CE5 /* Metropolis-BoldItalic.otf in Resources */,
+				E2A80D03226FBA89004E1CE5 /* Roboto-Bold.ttf in Resources */,
+				E2A80D04226FBA89004E1CE5 /* Metropolis-ExtraBoldItalic.otf in Resources */,
+				E2A80CE9226FABB5004E1CE5 /* HomeScreenFooterCell.xib in Resources */,
 				E2A80BF8226F9DBD004E1CE5 /* LaunchScreen.storyboard in Resources */,
+				E254BF6322AEE79600265A89 /* updateLogo.jpeg in Resources */,
+				E2A80CDC226FA90B004E1CE5 /* logo_ihr.png in Resources */,
+				E2A80C9D226F9F7A004E1CE5 /* Roboto-Light.ttf in Resources */,
 				E2A80BF5226F9DBD004E1CE5 /* Assets.xcassets in Resources */,
+				E2A80C85226F9F7A004E1CE5 /* choose_gallery.jpg in Resources */,
+				E2A80C7F226F9F7A004E1CE5 /* demoImage.jpg in Resources */,
+				E2A80CD3226FA577004E1CE5 /* ssc_banner.jpg in Resources */,
+				E2A80CDF226FA911004E1CE5 /* eyecon.jpeg in Resources */,
+				E2A80CE5226FAB91004E1CE5 /* HomeScreenHeader.xib in Resources */,
+				E2A80CDD226FA90B004E1CE5 /* ifem.jpg in Resources */,
+				E2A80CB0226F9F7A004E1CE5 /* Roboto-Thin.ttf in Resources */,
 				E2A80BF3226F9DBC004E1CE5 /* Main.storyboard in Resources */,
+				E2A80CC6226FA1C5004E1CE5 /* logo_sns.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +650,129 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2177649291F6D716ABD57FC5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SNS/Pods-SNS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ActionSheetPicker-3.0/ActionSheetPicker_3_0.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/DatePickerDialog/DatePickerDialog.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ActionSheetPicker_3_0.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DatePickerDialog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SNS/Pods-SNS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		63939654A0FAC6A37E37E5AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BC903D3D67691DAB8BC27A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB01EF1143FE12C4287BB61F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SNS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E2A80BE6226F9DBC004E1CE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2A80BF0226F9DBC004E1CE5 /* ViewController.swift in Sources */,
+				E2A80C7E226F9F7A004E1CE5 /* WebServiceManager.swift in Sources */,
 				E2A80BEE226F9DBC004E1CE5 /* AppDelegate.swift in Sources */,
+				E2CE3E5922973196006B00AC /* WebViewLoadVC.swift in Sources */,
+				E2A80CB6226F9F7A004E1CE5 /* RoundedButton.swift in Sources */,
+				E2A80CE4226FAB91004E1CE5 /* HomeScreenHeader.swift in Sources */,
+				E2F7D3892270B71F00EAFC39 /* ManullyEntryVC.swift in Sources */,
+				E2A80C80226F9F7A004E1CE5 /* PhotoPicker.swift in Sources */,
+				E2A80CE8226FABB5004E1CE5 /* HomeScreenFooterCell.swift in Sources */,
+				E2A80C98226F9F7A004E1CE5 /* DataModel.swift in Sources */,
+				E2A80CED226FB3A0004E1CE5 /* RegistrationPresenter.swift in Sources */,
+				E2A80C86226F9F7A004E1CE5 /* UIAlertControllerExtension.swift in Sources */,
+				E2A80C7B226F9F7A004E1CE5 /* CardCell.swift in Sources */,
+				E2A80CC1226F9F7A004E1CE5 /* KGRadioButton.swift in Sources */,
+				E2A80C89226F9F7A004E1CE5 /* WAView.swift in Sources */,
+				E2A80C83226F9F7A004E1CE5 /* CardView.swift in Sources */,
+				E2A80CC3226F9F7A004E1CE5 /* UITextField+Additions.m in Sources */,
+				E2A80CB3226F9F7A004E1CE5 /* WAShareHelper.swift in Sources */,
+				E2A80C82226F9F7A004E1CE5 /* UIViewController+Helper.m in Sources */,
+				E2A80CEB226FB329004E1CE5 /* SNSLoginVC.swift in Sources */,
+				E2A80C84226F9F7A004E1CE5 /* ConstantDevices.swift in Sources */,
+				E2A80C87226F9F7A004E1CE5 /* UIViewcontrollerExtension.swift in Sources */,
+				E2A80CD9226FA7E3004E1CE5 /* SNSHomeVC.swift in Sources */,
+				E2A80CC9226FA29B004E1CE5 /* SNSMainTabBarVC.swift in Sources */,
+				E2A80C88226F9F7A004E1CE5 /* UIColorExtension.swift in Sources */,
+				E2A80C8D226F9F7A004E1CE5 /* TQConstants.swift in Sources */,
+				E2A80C8E226F9F7A004E1CE5 /* ApplicationHelper.swift in Sources */,
+				E2A80CEF226FB656004E1CE5 /* SNSContactUSVC.swift in Sources */,
+				E2A80CB4226F9F7A004E1CE5 /* GradientView.swift in Sources */,
+				E2A80C8C226F9F7A004E1CE5 /* UtilityHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,42 +945,55 @@
 		};
 		E2A80C13226F9DBD004E1CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47B1C379FF75CCB427943B3D /* Pods-SNS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GCDJ2647RH;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Poon (LF6Y38TF85)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LF6Y38TF85;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SNS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyberHost.SNS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyberHost.SNSs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SNS_APPSTORE;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ahmed/Documents/SNS/Resource/SNS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E2A80C14226F9DBD004E1CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DA499A8B95DBF2122AB7FD /* Pods-SNS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GCDJ2647RH;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Nicholas Poon (LF6Y38TF85)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = LF6Y38TF85;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = SNS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.cyberHost.SNS;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cyberHost.SNSs;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SNS_APPSTORE;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ahmed/Documents/SNS/Resource/SNS-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 		E2A80C16226F9DBD004E1CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC88379B4EAFF0416ED9515C /* Pods-SNSTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +1015,7 @@
 		};
 		E2A80C17226F9DBD004E1CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C51D7A0D5F36EB9E4982FA1 /* Pods-SNSTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1037,7 @@
 		};
 		E2A80C19226F9DBD004E1CE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 04583C38E2F18FA75894E6BC /* Pods-SNSUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +1058,7 @@
 		};
 		E2A80C1A226F9DBD004E1CE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E91ABC53603B638AA8B4E7B /* Pods-SNSUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
